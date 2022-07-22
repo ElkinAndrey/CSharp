@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUpsideDown.Android", "TextUpsideDown\TextUpsideDown.Android\TextUpsideDown.Android.csproj", "{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextUpsideDown", "TextUpsideDown\TextUpsideDown\TextUpsideDown.csproj", "{03BF2DBF-7C1D-4203-ADAE-7FA41AF7EA5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWPFMultiplePageOpeninSameScreen", "ExampleWPFMultiplePageOpeninSameScreen\ExampleWPFMultiplePageOpeninSameScreen.csproj", "{3447273E-710E-426E-BA51-5DA888DFE7ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AB74CA-E6E7-473C-9A13-9D9ACAC00A42}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{03BF2DBF-7C1D-4203-ADAE-7FA41AF7EA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BF2DBF-7C1D-4203-ADAE-7FA41AF7EA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BF2DBF-7C1D-4203-ADAE-7FA41AF7EA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BF2DBF-7C1D-4203-ADAE-7FA41AF7EA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB63A8C9-6784-4B54-ACE4-FD410FB16963}
+	EndGlobalSection
+EndGlobal
