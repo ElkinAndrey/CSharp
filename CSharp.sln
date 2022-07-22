@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextUpsideDown", "TextUpsid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWPFMultiplePageOpeninSameScreen", "ExampleWPFMultiplePageOpeninSameScreen\ExampleWPFMultiplePageOpeninSameScreen.csproj", "{3447273E-710E-426E-BA51-5DA888DFE7ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWPFMVVM", "ExampleWPFMVVM\ExampleWPFMVVM.csproj", "{0A01BF91-A678-4634-99B6-F9CA63E203BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3447273E-710E-426E-BA51-5DA888DFE7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A01BF91-A678-4634-99B6-F9CA63E203BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A01BF91-A678-4634-99B6-F9CA63E203BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A01BF91-A678-4634-99B6-F9CA63E203BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A01BF91-A678-4634-99B6-F9CA63E203BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
