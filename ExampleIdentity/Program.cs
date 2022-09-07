@@ -1,11 +1,5 @@
 var builder = WebApplication.CreateBuilder(args); //  включает внедрение зависимостей, позволяющее обращаться к настроенным службам в рамках приложения. 
 
-builder.Services.AddAuthentication("Cookie") // Добавление аутентификации
-    .AddCookie("Cookie", config =>
-    {
-        config.LoginPath = "/Admin/Login"; // Куда перейти при попытке аутентификации
-    }); // Использование куки
-builder.Services.AddAuthorization(); // Добавление авторизации
 
 builder.Services.AddControllersWithViews(); // добавляет в коллекцию сервисов сервисы, которые необходимы для работы контроллеров MVC
 
@@ -14,9 +8,6 @@ var app = builder.Build(); // для создания экземпляра WebApplication
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-app.UseAuthentication(); // Добавление аутентификации
-app.UseAuthorization(); // Добавление авторизации
 
 app.MapControllerRoute( // Добавление маршрута к контроллеру
     name: "default",
