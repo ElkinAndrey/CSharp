@@ -2,10 +2,11 @@
 
 namespace AutorizationRoles.Controllers
 {
-    public class HomeController : Controller
+    public class RecController : Controller
     {
         public IActionResult Index()
         {
+            ViewBag.Name = User.Identity.Name;
             return View();
         }
     }

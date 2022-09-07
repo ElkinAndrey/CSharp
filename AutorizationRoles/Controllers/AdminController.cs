@@ -1,5 +1,4 @@
-﻿using AutorizationBasics.Controllers;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
@@ -15,6 +14,18 @@ namespace AutorizationRoles.Controllers
     public class AdminController : Controller
     {
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize(Policy = "Administrator")]
+        public IActionResult Administrator()
+        {
+            return View();
+        }
+
+        [Authorize(Policy = "Manager")]
+        public IActionResult Manager()
         {
             return View();
         }
@@ -36,7 +47,8 @@ namespace AutorizationRoles.Controllers
 
             var claims = new List<Claim>
             {
-                new Claim("Demo", "Value")
+                new Claim(ClaimTypes.Name, model.UserName), // ClaimTypes.Name - куда записать имя пользователя, model.UserName - имя только что зарегистрировавшегося пользователя
+                new Claim(ClaimTypes.Role, "Manager")
             };
             var claimIdentity = new ClaimsIdentity(claims, "Cookie");
             var claimPricipal = new ClaimsPrincipal(claimIdentity);
