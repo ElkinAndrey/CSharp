@@ -1,0 +1,18 @@
+﻿<Window x:Class="RussianLettersAboveText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RussianLettersAboveText"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="765">
+    <Grid>
+        <TextBox x:Name="result" IsReadOnly="True" HorizontalAlignment="Left" Margin="33,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Height="284"/>
+        <TextBox x:Name="upText" HorizontalAlignment="Left" Margin="400,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="127" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="downText" HorizontalAlignment="Left" Margin="400,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="127" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Текст сверху" HorizontalAlignment="Left" Margin="400,5,0,0" VerticalAlignment="Top"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="33,5,0,0" VerticalAlignment="Top"/>
+        <Label Content="Текст снизу" HorizontalAlignment="Left" Margin="400,163,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
