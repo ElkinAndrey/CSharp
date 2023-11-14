@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}example
+    build:
+      context: .
+      dockerfile: Example/Dockerfile
+
+  client:
+    image: client
+    build:
+      context: ./example-client
+      dockerfile: Dockerfile
+
+  proxy:
+    image: nginx:mainline
